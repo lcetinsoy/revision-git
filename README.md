@@ -7,7 +7,7 @@ revision-git
 ### 1 Basics
 
 1. Cloner le repository
-2. Créer un fichier ayant pour nom votre prénom/username
+2. Créer un fichier ayant pour nom votre prénom ou username
 3. L'ajouter et le commiter avec le messsage "révision - exercice1"
 4. Push
 
