@@ -24,3 +24,12 @@ revision-git
    A l'aide de git reset HEAD nom_ficher enlever test2.py du stagging
 4. commit test1.py avec le message que vous voulez
 
+
+### 4. ignore des fichiers et dossier.
+
+créer un dossier data
+faire un git status
+créer un fichier .gitignore 
+et mettre data/ dedans
+refaire un git status et assurez vous que git 
+considère plus le fichier
