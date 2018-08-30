@@ -22,7 +22,12 @@ A suit les indications de l'erreur et un conflit devrait être apparu !
 Quand un même ficher est modifié par deux personnes différents, git ne sait pas
 (sauf dans certains cas) quels modifications garder. 
 
-Ouvrir le fichier ayant un conflit et l'analyser. 
+Ouvrir (A) le fichier ayant un conflit et l'analyser. 
 
-Puis décider quel partie garder et le modifie
+Puis décider quel partie garder et le modifier
+
+avec git add ajouter le fichier au stage, faire un commit 
+
+puis il doit être possible de push désormais.
+
 
