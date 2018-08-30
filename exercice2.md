@@ -4,13 +4,14 @@
 2. L'un des membre du groupe (personne A) crée un repository sur github
 3. A invite B au à liste des contributeurs du repo sur github (dans paramètres)
 4. A crée un fichier et l'ajoute dans le repository
+5. A commit et push. 
 
 Une fois que c'est fait 
 
-B clone le repository puis 
-modifie le fichier créé par A. A commit et push. 
+B clone le repository puis modifie le fichier créé par A. 
+B commit et push 
 
-Pendant ce temps A le fichier qu'il a créé et le commit
+Pendant ce temps A modifie le fichier qu'il a créé, 
 le commit (sans le push). 
 
 Quand B a push, A tente de push et devrait avoir une erreur. 
@@ -22,12 +23,12 @@ A suit les indications de l'erreur et un conflit devrait être apparu !
 Quand un même ficher est modifié par deux personnes différents, git ne sait pas
 (sauf dans certains cas) quels modifications garder. 
 
-Ouvrir (A) le fichier ayant un conflit et l'analyser. 
+A ouvre le fichier ayant le conflit. Discuter à deux quelle modification garder
 
-Puis décider quel partie garder et le modifier
+A modifie le fichier en conséquence
 
-avec git add ajouter le fichier au stage, faire un commit 
+A add le fichier modifié au staging, le commit 
 
-puis il doit être possible de push désormais.
+A peut désormais pusher
 
 
