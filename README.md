@@ -1,8 +1,8 @@
 # revision-git
-revision-git
 
-petite modification
-on est dans la branche dev
+Quelques exercices 
+
+
 ## Exercices
 
 ### 1 Basics
