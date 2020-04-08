@@ -13,7 +13,7 @@ Quelques exercices
 4. Push
 
 ### 2 Branches
-
+0. faire un fork du repo
 1. Créer une branche avec votre prenom/username
 2. Ajouter un fichier le commiter et pusher sur la branche
 
