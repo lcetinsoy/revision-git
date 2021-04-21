@@ -46,7 +46,7 @@ Git stocke-t-il l'entiereté de chaque fichier à chaque commit ou est-il un peu
 
 ### 4. ignore des fichiers et dossier.
 
-1. créer un dossier data
+1. créer un dossier data et y ajouter un fichier data.txt dedans
 2. faire un git status
 3. créer un fichier .gitignore 
 4. ajouter une ligne qui contiendra "data/"
