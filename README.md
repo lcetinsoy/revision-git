@@ -15,6 +15,9 @@ Quelques exercices
 6. valider la sauvegarde du commit avec la commande git commit. Faire en sorte que le message du commit soit   "mon premier commit"
 7. Faire un git log pour vérifier que le commit a bien été ajouté à l'historique des commits
 
+Questions : 
+Quelle est la différence entre git add et git commit ? 
+Git stocke-t-il l'entiereté de chaque fichier à chaque commit ou est-il un peu plus intelligent ? 
 
 ### 2 Branches
 0. faire un fork du repo
