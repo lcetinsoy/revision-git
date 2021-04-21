@@ -19,12 +19,7 @@ Questions :
 Quelle est la différence entre git add et git commit ? 
 Git stocke-t-il l'entiereté de chaque fichier à chaque commit ou est-il un peu plus intelligent ? 
 
-### 2 Branches
-0. faire un fork du repo
-1. Créer une branche avec votre prenom/username
-2. Ajouter un fichier le commiter et pusher sur la branche
-
-### 3. Enlever un fichier qui s'apprête à être commit
+### 2. Enlever un fichier qui s'apprête à être commit
 
 1. Sur la même branche créer deux fichier nommés test1.py et test2.py
 2. Ajouter les deux fichiers au staging avec git add (ne pas les commit)
@@ -32,6 +27,15 @@ Git stocke-t-il l'entiereté de chaque fichier à chaque commit ou est-il un peu
    A l'aide de git reset HEAD nom_ficher enlever test2.py du stagging
 4. commit test1.py avec le message que vous voulez
 
+### 3 Branches
+
+1. Créer une branche nommée "seconde-branche" avec la commande git checkout -b "nomdelabrancheacreer"
+2. Afficher toutes les branches avec la commande git branch
+3. créer un fichier "fichier2.txt" et mettre une phrase simple dedans
+4. avec git add et git commit sauvegarder le fichier dans git.
+5. retourner sur l'autre branche avec la commande git checkout "nomdebranch"
+6. Le fichier fichier2.txt a disparu ! Est-ce normal ?
+7. Avec la commande git merge fusionner le commit de la branche "seconde-branche" dans la première branche
 
 ### 4. ignore des fichiers et dossier.
 
