@@ -7,10 +7,14 @@ Quelques exercices
 
 ### 1 Basics
 
-1. Cloner le repository
-2. Créer un fichier ayant pour nom votre prénom ou username
-3. L'ajouter et le commiter avec le messsage "révision - exercice1"
-4. Push
+1. Cloner le repository avec la commande git clone
+2. Créer un fichier dont le nom est votre prénom ou username
+3. lancer la commande git status. Lire le message.
+4. avec git add ajouter le fichier pour qu'il soit ajouté dans le prochain commit.
+5. faire un git status. Qu'est ce qui a changé ? 
+6. valider la sauvegarde du commit avec la commande git commit. Faire en sorte que le message du commit soit   "mon premier commit"
+7. Faire un git log pour vérifier que le commit a bien été ajouté à l'historique des commits
+
 
 ### 2 Branches
 0. faire un fork du repo
