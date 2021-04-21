@@ -5,6 +5,12 @@ Quelques exercices
 
 ## Exercices
 
+### 0 Installation
+
+Installer git sur votre pc 
+windows : http://git-scm.com/download/win
+linux (ubuntu/debian) : sudo apt get install git -y
+
 ### 1 Basics
 
 1. Cloner le repository avec la commande git clone
