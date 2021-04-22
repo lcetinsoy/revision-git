@@ -24,5 +24,5 @@ on veut la fusionner dans master.
    
 3. Vérifier que les modifications sont bien intégrées dans master
 4. Push vers le repository distant
-5. Lire https://git-scm.com/book/fr/v1/Les-branches-avec-Git-Rebaser
+5. Lire https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
