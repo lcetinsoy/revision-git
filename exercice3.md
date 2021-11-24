@@ -1,28 +1,25 @@
-# Retour sur les branches
+# branches et pull request
 
-Dans le premier exercice on a vu les branches : vous avez créé une branche
-et fait des modifications dessus. 
+Exercice à faire à 2 à nouveau
 
-1. Retourner dans le repository où vous avez créé la branche. 
-lister les fichiers avec dir ou ls
+1. Créer un depot git sur github et inviter votre collègue
 
-2. Avec la commande git checkout retournez la branche master 
-et vérifier que le fichier que vous aviez ajouter sur votre branche
-n'existe plus
+2. Cloner le dépot en local
 
-# Merge
+3. Personne A ajoute un fichier, le commit et le push sur la branche principale
 
-En général on crée des branches pour ne pas faire de modification
-directe sur la branche master qui est utilisée pour les déploiement
+4. Personne B pull les modifications
 
-Mais quand on est content d'une modification effectuée sur une branche
-on veut la fusionner dans master. 
+5. Personne B créer une branche, modifier le fichier et push la nouvelle branche ! On ne merge pas dans main ou master !
 
-1. Se mettre dans la branche master
-2. Fusionner la branche où vous aviez fait les modifications dans master
-   a l'aide la de git merge 
-   
-3. Vérifier que les modifications sont bien intégrées dans master
-4. Push vers le repository distant
-5. Lire https://git-scm.com/book/fr/v1/Les-branches-avec-Git-Rebaser
+6. Quand vous avez push, vous devriez avoir un lien qui apparait dans le terminal pour créer une pull request. B crée un pull Request
+
+7. A se connecter sur github et regarde la section pull request. Lis les modification et les approves si c'est ok
+
+8. B Merge la pull request
+
+9. LEs deux retournent sur la branch main ou master et pull la branche distante. Vérifier que les modifications de B ont bien été intégrés
+
+Refaire l'exercice en inversant les roles
+
 

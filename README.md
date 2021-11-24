@@ -46,11 +46,10 @@ Git stocke-t-il l'entiereté de chaque fichier à chaque commit ou est-il un peu
 6. Le fichier fichier2.txt a disparu ! Est-ce normal ?
 7. Avec la commande git merge fusionner le commit de la branche "seconde-branche" dans la première branche
 
-
-### 4. ignore des fichiers et dossier.
+### 4. Ignorer des fichiers et dossier.
 
 1. créer un dossier data et y ajouter un fichier data.txt dedans
 2. faire un git status
 3. créer un fichier .gitignore 
 4. ajouter une ligne qui contiendra "data/"
-5 refaire un git status. Normalement le fichier n'apparait plus en rouge : il est désormais ignoré par git.
+5. refaire un git status. Normalement le fichier n'apparait plus en rouge : il est désormais ignoré par git.

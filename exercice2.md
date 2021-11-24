@@ -14,14 +14,14 @@ Une fois que c'est fait
 8. Pendant ce temps A modifie le fichier qu'il a créé et le commit **sans le push** 
 
 
-9. Quand B a push, A tente de push et devrait avoir une erreur. 
+9. Une fois que B a push, A tente de push et devrait avoir une erreur. 
 
 10. A suit les indications de l'erreur et un conflit devrait être apparu ! 
 
 ## Résoudre un conflit
 
 Quand un même ficher est modifié par deux personnes différents, git ne sait pas
-(sauf dans certains cas) quels modifications garder. 
+(sauf dans certains cas) quelles modifications garder. 
 
 1. A ouvre le fichier ayant le conflit. Discuter à deux quelle modification garder
 
@@ -29,6 +29,6 @@ Quand un même ficher est modifié par deux personnes différents, git ne sait p
 
 3. A add le fichier modifié au staging, le commit 
 
-4.A peut désormais pusher
+4. A peut désormais pusher
 
-Refaire les deux séries d'exos en inversant les roles
+Refaire cette série d'exercice en inversant les roles
