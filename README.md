@@ -1,25 +1,28 @@
 # revision-git
 
-Quelques exercices 
-
+Quelques exercices pour apprendre à prendre en main git 
 
 ## Exercices
 
 ### 0 Installation
 
-Installer git sur votre pc 
-windows : http://git-scm.com/download/win
-linux (ubuntu/debian) : sudo apt get install git -y
+Installer git sur votre pc :
+
+- windows : http://git-scm.com/download/win
+- linux (ubuntu/debian) : sudo apt get install git -y
 
 ### 1 Basics
 
-1. Cloner le repository avec la commande git clone
-2. Créer un fichier dont le nom est votre prénom ou username
-3. lancer la commande git status. Lire le message.
-4. avec git add ajouter le fichier pour qu'il soit ajouté dans le prochain commit.
-5. faire un git status. Qu'est ce qui a changé ? 
-6. valider la sauvegarde du commit avec la commande git commit. Faire en sorte que le message du commit soit   "mon premier commit"
-7. Faire un git log pour vérifier que le commit a bien été ajouté à l'historique des commits
+1. Avec la commande git clone, cloner ce depot git.
+2. Aller dans le dossier en local et lancer ls -la. Vérifier que les fichiers présents sont identiques au depot distant
+3. la commande git status permet de savoir si des fichiers ont été modifié depuis la derniere sauvegarde dans git. Lancer git status
+3. Créer un fichier dont le nom est votre prénom ou username
+4. lancer la commande git status. Lire le message.
+5. Avec la commande git add ajouter le fichier pour qu'il soit ajouté dans le prochain commit.
+6. faire un git status. Qu'est ce qui a changé ? 
+7. Valider la sauvegarde du commit avec la commande git commit. Faire en sorte que le message du commit soit   "mon premier commit"
+8. Faire un git log pour vérifier que le commit a bien été ajouté à l'historique des commits
+9. lancer à nouveau git status et vérifier que git n'indique plus de fichier à modifier.
 
 Questions : 
 Quelle est la différence entre git add et git commit ? 
