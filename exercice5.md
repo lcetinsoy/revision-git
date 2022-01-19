@@ -41,24 +41,14 @@ jobs:
 Exercice 2 
 
 1. On veut maintenant executer un script python simple  (job.py) fourni
-ajouter le fichier job.py dans le dossier du workflow et modifier le fichier yaml pour qu'il lance le fichier python
+ajouter un fichier job.py à la racine du projet et modifier le fichier yaml pour qu'il lance le fichier python
+
+Il faudra ajouter dans la section step la ligne suivante : 
+
+```
+  - uses: actions/checkout@v2
+```
+
+Ce morceau de code va permettre de récupérer le code du projet. 
 
 
-Exercice - pour les real professionals
-
-On veut build une image docker et la push sur le registry dockerhub 
-
-- Reprendre le fichier app.py qui permet de créer un webservice
-- Reprendre le fichier dockerfile qui permet de build une image
-- Créer un script bash qui installe docker et build l'image et qui affiche docker images
-- Modifier le fichier fichier yaml pour que cela lance le script
-- push la branche et vérifier bien que le job afficher bien votre image bien build
-- Modifier le script bash pour que désormais ça fasse un docker tag, un docker login et un docker push pour push votre image sur votre registry
-
-Exercice 3 : bonus
-
-En vrai pour faire ce genre de chose on va plutôt utiliser des actions déjà crée par d'autres 
-
-par exemple cette action https://github.com/docker/build-push-action permet de spécifier une image à créer à partir d'un dockerfile situé à la racine du projet, de le build et de push l'image correspondante sur le registry.
-
-Reprendre l'exercice 2 et faire en sorte que votre action utilise l'action proposée dans le lien ci dessus et non pas un script bash 
