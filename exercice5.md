@@ -14,7 +14,6 @@ Exercice 1
 1. Créer un repository sur github vierge 
 2. cloner le repository en local 
 3. Ajouter un fichier et le commit
-4. Créer une branch test-action
 5. Créer un dossier .github/workflows
 6. créer un fichier yaml nommé github-actions-demo.yml avec le contenu suivant
 
