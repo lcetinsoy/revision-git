@@ -37,10 +37,17 @@ jobs:
 7. Push la branche test-actions
 8. Aller sur l'interface github et vérifier qu'un job s'est lancé et voir ce qu'il se passe. 
 
-
 Exercice 2 
 
-1. On veut maintenant executer un script python simple  (job.py) fourni
+On veut maintenant executer un script python simple 
+
+1. Créer un fichier python job.py qui contient
+
+```python
+a = 2
+print("coucou", a)
+```
+
 ajouter un fichier job.py à la racine du projet et modifier le fichier yaml pour qu'il lance le fichier python
 
 Il faudra ajouter dans la section step la ligne suivante : 
@@ -49,6 +56,6 @@ Il faudra ajouter dans la section step la ligne suivante :
   - uses: actions/checkout@v2
 ```
 
-Ce morceau de code va permettre de récupérer le code du projet. 
+Ce morceau de code va permettre de récupérer le code du projet dans l'environnement d'execution. 
 
-
+2. récupérer le code qui calcule la moyenne des valeurs et le test que vous avez fait. Ajouter les fichiers dans votre projet et faire en sorte que les tests unitaires soient lancés dans le CI/CD à chaque push. Comparer ce qu'il passe quand la fonction est bugguée et que les tests ne passent pas et quand la fonction marche correctement
