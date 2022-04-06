@@ -48,7 +48,7 @@ a = 2
 print("coucou", a)
 ```
 
-ajouter un fichier job.py à la racine du projet et modifier le fichier yaml pour qu'il lance le fichier python
+Ajouter le  fichier job.py à la racine du projet et modifier le fichier yaml pour qu'il lance le fichier python
 
 Il faudra ajouter dans la section step la ligne suivante : 
 
