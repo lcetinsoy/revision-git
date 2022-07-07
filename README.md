@@ -1,6 +1,6 @@
 # revision-git
 
-Quelques exercices pour apprendre à prendre en main git 
+Quelques exercices pour apprendre à prendre en main git !
 
 ## Exercices
 
