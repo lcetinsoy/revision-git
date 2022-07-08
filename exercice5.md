@@ -1,13 +1,16 @@
 # Github jobs (github actions)
 
-Il est possible de demander à github de lancer des scripts (des actions)
+Il est possible de demander à github de lancer des tâches (des actions)
 à chaque fois que quelqu'un fait un push sur une branche. 
+
+C'est un mécanisme de Pipeline proposé par Github qui s'appelle github Action. 
 
 Cela permet notament de : 
 - vérifier la qualité du code avant d'accepter un merge
 - vérifier que le logiciel passe des tests automatique
 - et si c'est le cas, potentiellement initier un déploiement automatique avec l'outil de votre choix (comme ansible, création d'image et push sur un registry, etc.)
 
+Pour cela il faut créer un fichier de configuration au format yaml à placer dans un sous dossier spécifique : workflows lui même situé dans un dossier .github à la racine du projet. C'est à vous de créer ces dossiers.
 
 Exercice 1
 
@@ -35,27 +38,34 @@ jobs:
 
 6. Ajouter et commiter le dossier et le fichier yml
 7. Faire un push de votre branche main
-8. Aller sur l'interface github et vérifier qu'un job s'est lancé et voir ce qu'il se passe. 
+8. Aller sur l'interface github, dans l'onblet "Actions" (à coté de Pull request). Vérifier que l'action s'est déclenchée et que les commandes "echos" ont bien démarrées. 
+
 
 Exercice 2 
 
-On veut maintenant executer un script python simple 
+On veut maintenant utiliser github action afin d'executer un script python simple 
 
-1. Créer un fichier python job.py qui contient
+1. A la racine de votre projet, créer un fichier python job.py qui contient
 
 ```python
 a = 2
 print("coucou", a)
 ```
 
-Ajouter le  fichier job.py à la racine du projet et modifier le fichier yaml pour qu'il lance le fichier python
+2. Modifier le fichier yaml pour qu'il lance le fichier python
 
-Il faudra ajouter dans la section step la ligne suivante : 
+Si vous essayer de faire un push, vous vous rendrez compte que l'action échoue. En effet, 
+par défaut, github Action, ne récupère pas le code du repository avant de lancer l'action. 
+
+Pour que github action récupére les fichiers du repository git il faut modifier le fichier yaml 
+et ajouter la section suivante 
 
 ```
   - uses: actions/checkout@v2
 ```
+Vous pouvez vous référer à https://docs.github.com/en/actions/quickstart pour cela
 
-Ce morceau de code va permettre de récupérer le code du projet dans l'environnement d'execution. 
 
-2. récupérer le code qui calcule la moyenne des valeurs et le test que vous avez fait. Ajouter les fichiers dans votre projet et faire en sorte que les tests unitaires soient lancés dans le CI/CD à chaque push. Comparer ce qu'il passe quand la fonction est bugguée et que les tests ne passent pas et quand la fonction marche correctement
+2. Récupérer le code qui calcule la moyenne des valeurs et le fichier de test et l'ajouter dans le repository. 
+3. Faire en sorte que les tests unitaires soient lancés dans le CI/CD à chaque push. 
+4. Comparer ce qu'il passe quand la fonction est bugguée et que les tests ne passent pas et quand la fonction marche correctement
