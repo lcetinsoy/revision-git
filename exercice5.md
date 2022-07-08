@@ -34,7 +34,7 @@ jobs:
 ```
 
 6. Ajouter et commiter le dossier et le fichier yml
-7. Push la branche test-actions
+7. Faire un push de votre branche main
 8. Aller sur l'interface github et vérifier qu'un job s'est lancé et voir ce qu'il se passe. 
 
 Exercice 2 
