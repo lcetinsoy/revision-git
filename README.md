@@ -13,16 +13,17 @@ Installer git sur votre pc :
 
 ### 1 Basics
 
-1. Avec la commande git clone, cloner ce depot git. Il faut récupérer l'url HTTPs dans l'interface de github
-2. Aller dans le dossier en local et lancer ls -la. Vérifier que les fichiers présents sont identiques au depot distant
-3. la commande git status permet de savoir si des fichiers ont été modifié depuis la derniere sauvegarde dans git. Lancer git status
-3. Créer un fichier dont le nom est votre prénom ou username
-4. lancer la commande git status. Lire le message.
-5. Avec la commande git add ajouter le fichier pour qu'il soit ajouté dans le prochain commit.
-6. faire un git status. Qu'est ce qui a changé ? 
-7. Valider la sauvegarde du commit avec la commande git commit. Faire en sorte que le message du commit soit   "mon premier commit"
-8. Faire un git log pour vérifier que le commit a bien été ajouté à l'historique des commits
-9. lancer à nouveau git status et vérifier que git n'indique plus de fichier à modifier.
+1. Récupérer l'url HTTPS  de ce dépôt sur github (cliquer sur le bouton vert code).
+2. Avec la commande git clone, cloner ce depot git.
+3. Aller dans le dossier en local et lancer ls -la. Vérifier que les fichiers présents sont identiques au depot distant
+4. la commande git status permet de savoir si des fichiers ont été modifié depuis la derniere sauvegarde dans git. Lancer git status
+5. Créer un fichier dont le nom est votre prénom ou username
+6. lancer la commande git status. Lire le message.
+7. Avec la commande git add ajouter le fichier pour qu'il soit ajouté dans le prochain commit.
+8. faire un git status. Qu'est ce qui a changé ? 
+9. Valider la sauvegarde du commit avec la commande git commit. Faire en sorte que le message du commit soit   "mon premier commit"
+10. Faire un git log pour vérifier que le commit a bien été ajouté à l'historique des commits
+11. lancer à nouveau git status et vérifier que git n'indique plus de fichier à modifier.
 
 Questions : 
 Quelle est la différence entre git add et git commit ? 
