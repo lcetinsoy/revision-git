@@ -13,7 +13,7 @@ Installer git sur votre pc :
 
 ### 1 Basics
 
-1. Avec la commande git clone, cloner ce depot git.
+1. Avec la commande git clone, cloner ce depot git. Il faut récupérer l'url HTTPs dans l'interface de github
 2. Aller dans le dossier en local et lancer ls -la. Vérifier que les fichiers présents sont identiques au depot distant
 3. la commande git status permet de savoir si des fichiers ont été modifié depuis la derniere sauvegarde dans git. Lancer git status
 3. Créer un fichier dont le nom est votre prénom ou username
