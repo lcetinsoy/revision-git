@@ -54,3 +54,7 @@ Git stocke-t-il l'entiereté de chaque fichier à chaque commit ou est-il un peu
 3. créer un fichier .gitignore 
 4. ajouter une ligne qui contiendra "data/"
 5. refaire un git status. Normalement le fichier n'apparait plus en rouge : il est désormais ignoré par git.
+
+
+
+--
