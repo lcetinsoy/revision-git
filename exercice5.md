@@ -61,7 +61,7 @@ Pour que github action récupére les fichiers du repository git il faut modifie
 et ajouter la section suivante 
 
 ```
-  - uses: actions/checkout@v2
+  - uses: actions/checkout@v4
 ```
 Vous pouvez vous référer à https://docs.github.com/en/actions/quickstart pour cela
 
