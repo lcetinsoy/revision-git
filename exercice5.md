@@ -66,6 +66,6 @@ et ajouter la section suivante
 Vous pouvez vous référer à https://docs.github.com/en/actions/quickstart pour cela
 
 
-2. Récupérer le code qui calcule la moyenne des valeurs et le fichier de test et l'ajouter dans le repository. 
+2. Récupérer ou faire une fonction qui calcule la moyenne des valeurs d'une liste. Faire un test unitaire avec pytest test et l'ajouter dans le repository. 
 3. Faire en sorte que les tests unitaires soient lancés dans le CI/CD à chaque push. 
 4. Comparer ce qu'il passe quand la fonction est bugguée et que les tests ne passent pas et quand la fonction marche correctement
