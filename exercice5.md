@@ -38,7 +38,7 @@ jobs:
 
 6. Ajouter et commiter le dossier et le fichier yml
 7. Faire un push de votre branche main
-8. Aller sur l'interface github, dans l'onblet "Actions" (à coté de Pull request). Vérifier que l'action s'est déclenchée et que les commandes "echos" ont bien démarrées. 
+8. Aller sur l'interface github, dans l'onglet "Actions" (à coté de Pull request). Vérifier que l'action s'est déclenchée et que les commandes "echos" ont bien démarrées. 
 
 
 Exercice 2 
