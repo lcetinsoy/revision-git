@@ -1,22 +1,12 @@
 Dans cet exercice on va voir la différence entre fetch et pull
-
-
 Mettez vous encore à deux comme l'exercice précédent.
 
-la personne A va créer une branche nommée "test_fetch"
-
-La personne B va pull la branche et faire une modification dessus et la push
-
-
-La personne A va pas faire un pull mais va faire un git fetch
-
-Que se passe-t-il ? 
-
-taper la commande git branch -a
-que sont les branches "remotes" ? 
-
-merge la branche origin/test_fetch
-
+1. la personne A va créer une branche nommée "test_fetch" et mettre un commit dedans
+2. La personne B va pull la branche et faire une modification dessus et la push
+3. La personne A va pas faire un pull mais va faire un git fetch
+4. Vous ne devriez pas voir les commits dans votre branche.
+5. taper la commande git branch -a vous devriez voir apparaitre la branche mais avec le prefix remotes
+6. merge la branche origin/test_fetch
 
 En faisant le fetch + le merge vous venez de faire exactement un pull
 pull = fetch + merge
